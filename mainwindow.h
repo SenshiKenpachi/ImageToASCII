@@ -14,6 +14,7 @@
 #include <QString>
 #include <QDebug>
 #include <QFileDialog>
+#include <QMessageBox>
 
 
 namespace Ui {
@@ -32,6 +33,12 @@ private slots:
     void on_btn_selectfile_clicked();
 
     void on_btn_convert_clicked();
+
+    void on_rbtn_sinf_clicked();
+
+    void on_rbtn_none_clicked();
+
+    void on_rbtn_semicol_clicked();
 
 private:
     Ui::MainWindow *ui;
